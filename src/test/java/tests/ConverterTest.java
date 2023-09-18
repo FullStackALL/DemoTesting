@@ -28,5 +28,11 @@ public class ConverterTest {
 		int act = Converter.cToF(temp);
 		assertEquals(exp,act);	
 	}	
+	
+	@Test
+	public void testmultiply()
+	{
+		System.out.println("This is multily method");
+	}
 
 }
