@@ -34,5 +34,15 @@ public class ConverterTest {
 	{
 		System.out.println("This is multily method");
 	}
+	
+	@Test
+	public void testFerToCel()
+	{
+		int temp=122;
+		int exp=50;
+		
+		int act=Converter.fToc(temp);
+		assertEquals(exp,act);
+	}
 
 }
